@@ -21,10 +21,10 @@
     <form class="form" @submit.prevent="onLoginUser">
       <brand-logo class="form__logo" />
       <div class="form__content">
-        <p class="form__title">Welcome</p>
-        <p class="form__text">Please enter your details to login.</p>
+        <p class="form__title">مرحبا</p>
+        <p class="form__text">الرجاء إدخال التفاصيل الخاصة بك لتسجيل الدخول</p>
         <div class="form__input" :class="{ active: login.username }">
-          <label class="form__label">Username</label>
+          <label class="form__label">الاسم</label>
           <input
             v-model="login.username"
             type="text"
@@ -32,7 +32,7 @@
           />
         </div>
         <div class="form__input" :class="{ active: login.password }">
-          <label class="form__label">Password</label>
+          <label class="form__label">الرقم السري</label>
           <input
             v-model="login.password"
             type="password"
