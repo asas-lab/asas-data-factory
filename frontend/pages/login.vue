@@ -47,7 +47,7 @@
           to learn more about usage and configuration options.
         </p>
         <base-button type="submit" class="form__button primary"
-          >Enter</base-button
+          >دخول</base-button
         >
         <p class="form__error" v-if="error">{{ formattedError }}</p>
       </div>
@@ -55,10 +55,6 @@
     <div class="login--right">
       <p class="login__claim">Build, improve, and monitor data for NLP</p>
       <geometric-shape-a />
-      <p class="login__text">
-        To get support from the community, join us on
-        <a :href="$config.slackCommunity" target="_blank">Slack</a>
-      </p>
     </div>
   </div>
 </template>
