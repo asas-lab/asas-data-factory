@@ -19,7 +19,7 @@
       </div>
       <div class="">
         <NuxtLink class="user__link" :to="{ name: 'user-settings' }">
-          My settings
+          الاعدادات
         </NuxtLink>
         <a
           class="user__link"
@@ -30,7 +30,7 @@
         <a class="user__link" @click.prevent="logout" v-text="'Log out'" />
       </div>
       <span class="copyright"
-        >© {{ currentYear }} Argilla ({{ $config.clientVersion }})</span
+        >© {{ currentYear }} ASAS ({{ $config.clientVersion }})</span
       >
     </div>
   </div>

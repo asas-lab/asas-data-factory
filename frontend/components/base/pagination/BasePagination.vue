@@ -19,7 +19,7 @@
   <div class="pagination__container">
     <template v-if="!onePage">
       <div v-click-outside="closePageSizeSelector" class="pagination__selector">
-        <span class="pagination__selector__title">Records per page:</span>
+        <span class="pagination__selector__title">السجلات لكل صفحة:</span>
         <div class="pagination__selector__content">
           <a href="#" @click.prevent="showOptions = !showOptions">
             {{ paginationSize }}
@@ -39,7 +39,7 @@
           :class="currentPage <= 1 ? 'is-disabled' : null"
           @click.prevent="prevPage"
         >
-          <svgicon name="chevron-left" width="8" height="8" /> Prev
+          <svgicon name="chevron-left" width="8" height="8" /> السابق
         </a>
         <ul class="pagination__numbers">
           <li v-if="totalPages > 1 && !pages.includes(1)">
@@ -85,7 +85,7 @@
           :class="currentPage >= totalPages ? 'is-disabled' : null"
           @click.prevent="nextPage"
         >
-          Next <svgicon name="chevron-right" width="8" height="8" />
+          الامام <svgicon name="chevron-right" width="8" height="8" />
         </a>
       </div>
     </template>
@@ -94,10 +94,10 @@
         <strong>
           {{ currentPaginationPosition }}
         </strong>
-        of
+        من
       </template>
       <span class="total-records">{{ totalItems | formatNumber }} </span>
-      records
+      السجلات
     </div>
   </div>
 </template>
