@@ -72,13 +72,13 @@ export default {
 
 <style lang="scss" scoped>
 .breadcrumbs {
-  margin-right: auto;
-  margin-left: 1em;
+  margin-left: auto;
+  margin-right: 1em;
   display: flex;
   align-items: center;
   ul {
     display: flex;
-    padding-left: 0;
+    padding-right: 0;
     font-weight: normal;
     list-style: none;
   }
@@ -86,7 +86,7 @@ export default {
     margin: auto 0.5em auto auto;
     white-space: nowrap;
     &:not(:last-child):after {
-      content: "/";
+      content: "|";
       margin-left: 0.5em;
     }
     &:last-child {

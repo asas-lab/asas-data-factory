@@ -170,13 +170,13 @@
                         class="primary outline"
                         @click="$emit('close-modal')"
                       >
-                        Cancel
+                        الغاء
                       </base-button>
                       <base-button
                         class="primary"
                         @click="onActionClicked('confirm-delete', item)"
                       >
-                        Yes, delete
+                        نعم، احذف
                       </base-button>
                     </div>
                   </div>

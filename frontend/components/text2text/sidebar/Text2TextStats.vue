@@ -17,7 +17,7 @@
 
 <template>
   <div>
-    <p class="metrics__title">Stats</p>
+    <p class="metrics__title">الاخصاءات</p>
     <stats-selector
       :selected-option="selectedOption"
       :options="options"
@@ -51,7 +51,7 @@ export default {
     return {
       selectedOption: {
         id: "keywords",
-        name: "Keywords",
+        name: "الكلمات المفتاحية",
       },
     };
   },
@@ -66,7 +66,7 @@ export default {
       const options = [];
       options.push({
         id: "keywords",
-        name: "Keywords",
+        name: "الكلمات المفتاحية",
       });
       return options;
     },

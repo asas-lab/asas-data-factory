@@ -52,10 +52,6 @@
         <p class="form__error" v-if="error">{{ formattedError }}</p>
       </div>
     </form>
-    <div class="login--right">
-      <p class="login__claim">Build, improve, and monitor data for NLP</p>
-      <geometric-shape-a />
-    </div>
   </div>
 </template>
 
@@ -166,7 +162,7 @@ export default {
   padding: $base-space * 5;
   z-index: 1;
   min-height: 100vh;
-  width: 50vw;
+  width: 100vw;
   flex-flow: column;
   &__content {
     max-width: 300px;

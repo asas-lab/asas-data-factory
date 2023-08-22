@@ -39,8 +39,8 @@ export default {
   color: palette(white);
   padding-top: 0;
   padding-bottom: 0;
-  padding-right: 1.2em;
-  padding-left: 4em;
+  padding-left: 1.2em;
+  padding-right: 4em;
   a {
     text-decoration: none;
   }

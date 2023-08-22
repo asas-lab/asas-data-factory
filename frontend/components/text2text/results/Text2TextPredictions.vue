@@ -9,7 +9,7 @@
           v-if="!arePredictionsVisible"
           class="predictions__button"
           :class="arePredictionsVisible === 'Prediction' ? '--active' : null"
-          >Prediction</base-button
+          >التنبوء</base-button
         >
         <svgicon
           @click="arePredictionsVisible && toggleVisibility"
@@ -21,7 +21,7 @@
       </div>
       <div v-if="arePredictionsVisible" class="predictions__content">
         <div class="predictions__tabs">
-          <p class="predictions__title">Prediction:</p>
+          <p class="predictions__title">التنبوء:</p>
           <div class="predictions__tabs__wrapper">
             <base-button
               :class="selectedPredictionIndex === index ? '--active' : null"

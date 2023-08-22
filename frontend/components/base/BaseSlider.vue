@@ -24,7 +24,7 @@
     >
       <svgicon name="chevron-left" width="8" height="8" color="#4C4EA3" />
     </a>
-    {{ itemNumber + 1 }} of {{ slidesOrigin.length }} {{ slidesName }}
+    {{ itemNumber + 1 }} من {{ slidesOrigin.length }} {{ slidesName }}
     <a
       :class="slidesOrigin.length <= itemNumber + 1 ? 'disabled' : null"
       href="#"

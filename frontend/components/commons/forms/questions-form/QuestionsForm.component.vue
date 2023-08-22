@@ -10,14 +10,15 @@
           Submit your feedback
         </p>
         <p class="questions-form__guidelines-link">
-          Read the
+          اقرا
           <NuxtLink
             :to="{
               name: 'dataset-id-settings',
               params: { id: datasetId },
             }"
             target="_blank"
-            >annotation guidelines <svgicon name="external-link" width="12" />
+          >
+            التعليمات حول التوسيم <svgicon name="external-link" width="12" />
           </NuxtLink>
         </p>
       </div>

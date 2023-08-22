@@ -18,7 +18,7 @@ export default {
       { link: { name: ROUTES.datasets }, name: "Home" },
       {
         link: {},
-        name: "my settings",
+        name: "اعداداتي",
       },
     ];
   },

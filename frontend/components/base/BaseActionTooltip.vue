@@ -26,7 +26,7 @@ export default {
     },
     tooltipPosition: {
       type: String,
-      default: "right",
+      default: "left",
     },
   },
   computed: {
